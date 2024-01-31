@@ -8,11 +8,13 @@
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 .sidebar{
-    background-color:green;
+    background-color: #000000;
     width: 340px;
     border-radius: 1rem;
+    margin-right:0.5rem;
 }
 /*Not worked till now*/
 .music-content{
@@ -65,6 +67,9 @@ a{
 .library{
     background-color: #121212;
     border-radius: 1rem;
+    height:100%;
+    margin-top:0.5rem;
+    padding: 0.5rem 0.75rem;
 }
 .options{
     display: flex;
@@ -75,17 +80,58 @@ a{
 }
 .lib-option{
     background-color: #121212;
+    opacity: 0.7;
 }
 .lib-option img{
-    width: 1rem;
-    height: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
     background-color:#121212;
     margin-left: 0.5rem;
 }
-.options .icons{
+.icons{
+    font-size: 1rem;
     background-color: #121212;
 }
 /*have add it since the background is still getting black of the whole document style*/
 .icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
     background-color: #121212;
+}
+.icons i:hover{
+    opacity: 1;
+}
+/* .lib-box{
+    overflow: scroll;
+} */
+.library .lib-box {
+    background-color: #121212; /* Override global background color */
+  }
+.box{
+    height: 7rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 1rem 1.25rem;
+}
+.box-p1{
+    font-size: 1rem;
+    background-color: #232323;
+    font-weight: 700;
+}
+.box-p2{
+    font-size:0.85rem;
+    background-color: #232323;
+    opacity: 0.7;
+}
+.badge{
+    background-color:white;
+    color: #121212;
+    border-radius: 100px;
+    border:none;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    margin-top: 0.5rem;
+    width: fit-content;
 }
