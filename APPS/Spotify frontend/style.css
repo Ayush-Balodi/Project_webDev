@@ -16,13 +16,6 @@
     border-radius: 1rem;
     margin-right:0.5rem;
 }
-/*Not worked till now*/
-.music-content{
-    background-color: #121212;
-    flex:1;
-    border-radius: 1rem;
-    overflow:auto;
-}
 /*Not working on it too*/
 .music-player{
     background-color: black;
@@ -134,4 +127,59 @@ a{
     height: 2rem;
     margin-top: 0.5rem;
     width: fit-content;
+}
+.dark-badge{
+    background-color: black;
+    color: #fff;
+}
+
+/*Not worked till now*/
+.music-content{
+    background-color: #121212;
+    flex:1;
+    border-radius: 1rem;
+    overflow:auto;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color:#121212;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1rem 0 1rem 0;
+}
+.sticky-nav-icons{
+    background-color: #121212;
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-icons img{
+    background-color: #121212;
+    width: 2rem; height: 2rem;
+}
+
+.sticky-nav-options{
+    background-color: #121212;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.sticky-nav-options i{
+    background-color: #121212;
+    color: #fff;
+}
+.sticky-nav-options .badge i{
+    background-color: black;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+.nav-item{
+    margin-right:1rem;
+}
+@media (max-width: 1000px){
+    .hide{
+        display:none;
+    }
 }
