@@ -369,3 +369,24 @@ a{
     border-radius:50%;
     margin-top: -6px;
 }
+
+.album{
+    display: flex;
+    flex-direction:row;
+}
+
+.album img{
+    width: 60px;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.album-text{
+    font-size: 0.85rem;
+    margin-right: 1rem;
+}
+
+.album i{
+    align-self: center;
+    color:#1bd760;
+}
